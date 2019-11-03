@@ -1,4 +1,4 @@
 # Pinegrow Bootstrap for my wife Raquel Gabrie
 by Samuel P. Folledo
 
-GitHub Page Link - https://samuelfolledo.github.io/Pinerow-Bootsrap/.
+GitHub Page Link - https://samuelfolledo.github.io/Pinegrow-Bootstrap/
