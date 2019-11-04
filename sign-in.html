@@ -16,7 +16,7 @@
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <div class="container pl-5 pr-5">
+        <div class="container pl-auto pr-auto pr-sm-4 pl-sm-4 pl-lg-5 pr-lg-5">
             <form class="form-signin">
                 <img class="mb-4" alt="" width="72" height="72" src="static/SFLogo.png">
                 <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
@@ -25,7 +25,7 @@
                 <label for="inputPassword" class="sr-only">Password</label>
                 <input type="password" id="inputPassword" class="form-control mb-2" placeholder="Password" required>
                 <div class="checkbox mb-3">
-                    <label>
+                    <label data-toggle="tooltip" title="Check to remember credential in this browser">
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
@@ -36,5 +36,11 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+
+    $(function() { //put a toggle on remember me 🔥
+    $('[data-toggle="tooltip"]').tooltip();
+})
+</script>
     </body>
 </html>
